@@ -1,0 +1,93 @@
+#chat-app { 
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  max-height: 95vh;
+}
+
+.display-panel { 
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+}
+.hidden-message{
+  display: none;
+}
+.users { 
+  border-right: 1px solid black;  
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  min-width: 100px;
+  overflow-y: scroll;
+}
+.username.select{
+  color: darkcyan;
+}
+.messages { 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.messages li {
+  border-bottom: 1px solid black;
+}
+
+.messages li:last-child { 
+  border-bottom: 0px;
+}
+
+.message { 
+  display: flex;
+  flex-direction: row;
+}
+
+.message:hover { 
+  background-color: #BADA55;
+}
+
+.meta-info { 
+  min-width: 100px;
+  background-color: lightgrey;
+  padding: 5px;
+}
+
+.message-text { 
+  padding-left: 10px;
+  width: 100%;
+}
+
+.sender-info { 
+}
+
+.message-info { 
+}
+
+.outgoing { 
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logout { 
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.outgoing .send { 
+  flex: 1 1 auto;
+}
+
+.outgoing .refresh { 
+  flex: 0 0 0;
+}
+
+.to-send { 
+  width: 80%;
+}
+

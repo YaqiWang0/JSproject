@@ -1,0 +1,211 @@
+@font-face{
+    font-family:'angelova script';
+    src:url('./font/angelova_script-webfont.eot');
+    src:url('./font/angelova_script-webfont.woff').format('woff'),
+    url('./font/Angelova Script.ttf').format('truetype'),
+    url('./font/angelova_script-webfont.svg').format('svg');
+}
+
+body{
+
+    background-image:url("backgrounds.jpg");
+    background-size: 100%;
+}
+.whole{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.add-recipe{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+
+}
+
+.add-frame{
+    height: 20%;
+    width: 50%;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+a {
+    text-decoration:none;
+    color:dimgray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+input{
+    background-color: dimgray;
+    border-color: #262424;
+    border-radius: 8px;
+    outline-color: aliceblue;
+}
+
+button{
+    outline-color: aliceblue;
+    color: dimgray;
+    width: 100%;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.recipes{
+    padding: 20px;
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.recipe-frame{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.recipe-detail{
+    width:30%;
+    background-color: dimgray;
+    height:80%;
+    border-radius: 20px;
+    padding: 20px;
+    font-style: italic;
+    overflow: scroll;
+
+}
+.recipe-list{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    color: white;
+}
+.open-add-screen{
+    height: 30px;
+    border-radius: 4px;
+    background-color: #343431;
+    font-size: 12px;
+    font-weight: 300;
+    border-color: black
+
+}
+
+.to-add{
+    height: 20px;
+    border-radius: 4px;
+    background-color: #343431;
+    font-size: 12px;
+    font-weight: 300;
+    border-color: black;
+    color: dimgray;
+    width: 60%
+}
+ul{
+    list-style-type:none;
+    padding-inline-start: 0px;
+}
+.recipe{
+    text-align: center;
+}
+
+.query-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin: 5px;
+}
+
+.query-title{
+    color:dimgray;
+    font-style: italic;
+}
+.recipe-title {
+    font-family:angelova script;
+    font-size:40px;
+}
+
+.whole-title {
+    font-family:angelova script;
+    font-size:4em;
+    color: #341813;
+    margin-top:0;
+    margin-bottom: 5px;
+    text-shadow: 0.01em 0.01em 0em white;
+}
+
+.recipe-detail-items {
+
+    font-size:1em;
+    margin: 10px;
+    color:dimgray;
+    font-style: italic;
+
+
+}
+
+.recipe-detail-items-title {
+    color: white;
+}
+
+.homepage{
+    height: 30px;
+    border-radius: 4px;
+    background-color: #343431;
+    font-size: 12px;
+    font-weight: 300;
+    border-color: black
+}
+
+.detial-list {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    color: white;
+}
+
+.detail {
+    padding: 20px;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.detail-frame {
+    display: flex;
+    width: 30%;
+    height: 50%;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
